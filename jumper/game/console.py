@@ -21,4 +21,4 @@ class Console:
         inp = "_"
         while inp not in LETTERS:
             inp = input("Guess a letter [a-z]: ").strip().lower()
-        return in
+        return inp
